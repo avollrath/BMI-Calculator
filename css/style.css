@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed:400,700');
+
+*{
+
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Asap Condensed', sans-serif;
+
+}
+
+body {
+
+    
+
+}
+
+h1 {
+
+font-family: 'Staatliches', cursive;
+color: #fff;
+padding-top: 10px;
+font-weight: normal;
+font-size: 1.4rem;
+
+}
+
+.image {
+
+width: 60%;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+margin: 20px 0 0 0;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+transition: 200ms;
+
+}
+
+
+#container {
+
+width:70vw;
+max-width: 480px;
+margin: 10px auto 0 auto;
+background: -webkit-linear-gradient(to top, #93EDC7, #1CD8D2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #93EDC7, #1CD8D2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+border-radius: 30px;
+padding: 3px;
+transition: 200ms;
+
+}
+
+main {
+display: flex;
+flex-direction: column;
+justify-content: center;
+transition: 200ms;
+
+}
+
+input {
+display: block;
+margin: 2px auto 10px auto;
+border-style: none;
+text-align: center;
+transition: 200ms;
+}
+
+label {
+color: #fff;  
+font-size: 0.7rem;
+transition: 200ms;
+}
+
+.field {
+font-size:1rem;
+padding:6px;
+width: 50%;
+border-radius:2px;
+transition: 200ms;
+}
+
+.field:focus {
+outline: none;
+}
+
+#valuesSubmit {
+width: 70%;
+height: 40px;
+border-radius:40px;
+margin: 30px auto 30px auto;
+font-size: 1.5rem;
+color: #fff;
+text-transform: uppercase;
+background-color: rgb(103, 221, 241);
+border: 2px #fff solid;
+border-radius: 45px;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease 0s;
+cursor: pointer;
+outline: none;
+}
+
+#valuesSubmit:hover {
+background-color: #2EE59D;
+box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+color: #fff;
+transform: translateY(-7px) scale(1.2);
+}
+
+
+#result-box {
+
+width:60%;
+height: 60px;
+background-color: rgb(103, 221, 241);
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+margin: 0px auto 20px auto;
+line-height: 60px;
+color: #fff;
+transition: 600ms;
+box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+footer {
+
+
+display: flex;
+text-align: left;
+color: #fff;  
+font-size: 0.7rem;
+justify-content: space-around;
+width: 60%;
+margin: 40px auto 20px auto;
+align-items: center;
+border: 1px #fff solid;
+padding: 12px;
+border-radius: 30px;
+transition: 200ms;
+
+}
+
+footer > div > p{
+
+margin:3px;
+transition: 200ms;
+
+}
+
+i {
+
+font-size: 2.7rem;   
+transition: 200ms; 
+
+}

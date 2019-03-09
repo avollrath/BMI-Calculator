@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div id="container">
+        
+
+        <main>
+
+                <div id="image-container">
+                    <img class="image" src="./assets/images/default.jpg">
+                </div>
+
+
+                <div id="result-box">Check your Body Mass Index!</div>
+
+                    <div interface>
+
+                    <label for="weightField">Your weight in kg:</label>
+                    <input class="field" type ="number" id="weightField" autocomplete="off"  placeholder="69" autofocus>
+
+                    <label for="heightField">Your height in m:</label>
+                    <input type ="number" class="field" id="heightField" placeholder="1.79" autocomplete="off">
+
+                    <input type="submit"  id="valuesSubmit" value="Check my BMI">
+
+                    </div>
+
+                
+               
+
+
+
+
+
+        </main>
+
+
+
+        <footer>
+
+            <div>
+
+                    <i class="fas fa-info-circle"></i>
+
+            </div>
+
+            <div>
+             <p id="underweight">Underweight: BMI is less than 18.5</p>
+             <p id="normal">Normal weight: BMI is 18.5 to 24.9</p>
+             <p id="overweight">Overweight: BMI is 25 to 29.9</p>
+             <p id="obese">Obese: BMI is 30 or more</p>
+            </div>
+
+        </footer>
+
+
+    </div>
+    
+
+
+
+
+    <script type="text/javascript" src="./js/script.js"></script>    
+</body>
+</html>
