@@ -82,9 +82,11 @@ bmi = weight / Math.pow(height, 2);
 bmi = bmi.toFixed(2);
 bmi = Number(bmi);
 
-
-changeImage(bmi);
-
+if (isNaN(bmi)) {
+    result.innerHTML = 'Please enter correct values!';
+    result.style.backgroundColor = '#b24040';
+}
+else changeImage(bmi);
 }
 
 
